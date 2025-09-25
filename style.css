@@ -1,0 +1,182 @@
+/* ===== Reset chung ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===== Header (3 dòng đầu) ===== */
+h1:first-of-type,
+h2:nth-of-type(1),
+h2:nth-of-type(2) {
+  background: #2196f3;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+/* ===== Navigation ===== */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #2196f3;
+  margin: 0;
+  padding: 10px 0;
+  gap: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin: 20px 0 10px 20px;
+  color: #333;
+}
+
+p {
+  margin: 10px 20px;
+}
+
+p b {
+  background: #fff3e0;
+  border-left: 6px solid red;
+  padding: 0px 6px;
+  font-style: italic;
+}
+.red-text{
+    color:red;
+}
+.highlight-sentence {
+  background-color: yellow;  
+  padding: 4px;
+  display: inline-block;
+}
+.highlight-1 {
+  background-color: #fff3cd;  
+  border-left: 4px solid orange;
+  padding: 6px;
+}
+
+.red-bold {
+  color: red;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+
+button {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 10px 20px;
+}
+
+button:hover {
+  background: #1976d2;
+}
+
+/* Submit trong form màu xanh lá */
+form button {
+  background: #4CAF50;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #45a049;
+}
+
+
+form {
+  margin: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+
+table {
+  width: calc(100% - 40px);
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #1976d2;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+
+table td:last-child {
+  font-weight: bold;
+}
+
+
+body > p:last-of-type {
+  text-align: center;
+  background: #f1f1f1;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 20px;
+}
